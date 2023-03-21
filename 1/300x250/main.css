@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  /* background-color: red; */
+}
+
+#banner>.frames_container,
+#banner>.frames_container .multi_frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#banner>.frames_container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#banner>.frames_container .frame_btn {
+  top: 60%;
+}
+
+#banner>.svg-mask-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

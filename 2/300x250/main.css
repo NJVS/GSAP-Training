@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'FoxtelText';
+  src: url('https://s0.2mdn.net/creatives/assets/2626062/FoxtelText-Regular.woff2') format('woff2'),
+      url('https://s0.2mdn.net/creatives/assets/2626062/FoxtelText-Regular.woff') format('woff'),
+      url('https://s0.2mdn.net/creatives/assets/2626062/FoxtelText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'FoxtelText', arial;
+}
+
+#banner {
+  position: relative;
+  width: 300;
+  height: 250px;
+  aspect-ratio: 300/250;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+#banner .frames {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#banner .frames .frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#banner .frames .frame > *:not(p) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  aspect-ratio: 300/250;
+}
+
+
+p {
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 9px;
+  text-align: center;
+  line-height: 1;
+  z-index: 100;
+}
+
+
+/* .f1_seal {
+  width: 315px;
+} */
