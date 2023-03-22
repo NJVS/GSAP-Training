@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'foxtel_textbold';
+  src: url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff2') format('woff2'),
+    url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff') format('woff'),
+    url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'foxtel_text';
+  src: url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff2') format('woff2'),
+    url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff') format('woff'),
+    url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*>* {
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+  font-family: 'foxtel_textbold', arial;
+  ;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#banner {
+  position: relative;
+  width: 160px;
+  height: 600px;
+  border: 1px solid #333;
+  background-color: tomato;
+  opacity: 0;
+  visibility: hidden;
+
+  img,
+  svg,
+  image,
+  .frame {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_logo {
+    position: relative;
+    z-index: 99;
+  }
+
+  .frame {
+    position: absolute;
+    inset: 0;
+
+    &.frame1 {
+      z-index: 10;
+    }
+
+    &.frame2 {
+      z-index: 9;
+    }
+    &.frame3 {
+      z-index: 8;
+    }
+    &.frame4 {
+      z-index: 7;
+    }
+    &.frame5 {
+      z-index: 6;
+    }
+
+
+    //
+    svg {
+      position: absolute;
+      inset: 0;
+      font-size: 3rem;
+
+      rect {
+        fill: #fff;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 323px;
+        height: 681px;
+        translate: 9px -49px;
+        rotate: 15deg;
+      }
+    }
+  }
+}

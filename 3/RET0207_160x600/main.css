@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "foxtel_textbold";
+  src: url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff2") format("woff2"), url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff") format("woff"), url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "foxtel_text";
+  src: url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff2") format("woff2"), url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff") format("woff"), url("https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* > * {
+  margin: 0;
+  padding: 0;
+  font-family: "foxtel_textbold", arial;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#banner {
+  position: relative;
+  width: 160px;
+  height: 600px;
+  border: 1px solid #333;
+  background-color: tomato;
+  opacity: 0;
+  visibility: hidden;
+}
+#banner img,
+#banner svg,
+#banner image,
+#banner .frame {
+  width: 100%;
+  height: 100%;
+}
+#banner .main_logo {
+  position: relative;
+  z-index: 99;
+}
+#banner .frame {
+  position: absolute;
+  inset: 0;
+}
+#banner .frame.frame1 {
+  z-index: 10;
+}
+#banner .frame.frame2 {
+  z-index: 9;
+}
+#banner .frame.frame3 {
+  z-index: 8;
+}
+#banner .frame.frame4 {
+  z-index: 7;
+}
+#banner .frame.frame5 {
+  z-index: 6;
+}
+#banner .frame svg {
+  position: absolute;
+  inset: 0;
+  font-size: 3rem;
+}
+#banner .frame svg rect {
+  fill: #fff;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 323px;
+  height: 681px;
+  translate: 9px -49px;
+  rotate: 15deg;
+}
+
+/*# sourceMappingURL=main.css.map */
