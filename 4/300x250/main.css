@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#banner {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+#banner > * {
+  position: absolute;
+  inset: 0;
+}
+#banner .main-logo {
+  z-index: 100;
+  pointer-events: none;
+}
+#banner .frame1 {
+  z-index: 10;
+}
+#banner .frame2 {
+  z-index: 9;
+}
+#banner .frame3 {
+  z-index: 8;
+}
+
+.rect-grey > rect {
+  fill: #383838;
+}
+
+.rect-teal > rect {
+  fill: #afede0;
+}
+
+.rect-orange > rect {
+  fill: #ea5207;
+}
+
+/*# sourceMappingURL=main.css.map */
