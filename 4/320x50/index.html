@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP Training 4 - 320x50</title>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <main id="banner">
+    <!-- Main Logo -->
+    <img src="./assets/foxtelLogo.png" alt="foxtel logo" class="main-logo">
+
+    <section class="frame frame1">
+      <svg width="320" height="50" viewbox="0 0 320 50">
+        <!-- mask -->
+        <defs>
+          <mask id="frame1_mask" class="rect-mask">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" style="fill: #fff;" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame1_mask)">
+          <!-- background -->
+          <g>
+            <image class="img img01" width="100%" height="100%" y="0" x="0" href="./assets/img01.jpg" />
+          </g>
+          <!-- rect inner -->
+          <g class="rect-inner rect-teal">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- rect outer -->
+          <g class="rect-outer rect-grey">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- date and attr -->
+          <g class="text t1">
+            <image width="100%" height="100%" y="0" x="0" href="./assets/date01.png" transform="matrix(1,0,0,1,0,0)" />
+            <image width="100%" height="100%" y="0" x="0" href="./assets/disc01.png" transform="matrix(1,0,0,1,0,0)" />
+          </g>
+          <!-- rect top -->
+          <g class="rect-top rect-grey">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- heading -->
+          <g class="text t2">
+            <image class="" width="100%" height="100%" y="0" x="0" href="./assets/txt01.png" />
+          </g>
+        </g>
+      </svg>
+    </section>
+
+
+    <!-- FRAME 2 -->
+    <section class="frame frame2">
+      <svg width="320" height="50" viewbox="0 0 320 50">
+        <!-- mask -->
+        <defs>
+          <mask id="frame2_mask" class="rect-mask">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" style="fill: #fff;" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame2_mask)">
+          <!-- background -->
+          <g>
+            <image class="img img01" width="100%" height="100%" y="0" x="0" href="./assets/img01.jpg" />
+          </g>
+          <!-- rect inner -->
+          <g class="rect-inner rect-grey">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- rect outer -->
+          <g class="rect-outer rect-orange">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- rect top -->
+          <g class="rect-top rect-orange">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <g class="text t1">
+            <image class="" width="100%" height="100%" y="0" x="0" href="./assets/txt02.png" />
+          </g>
+        </g>
+      </svg>
+    </section>
+
+    <!-- FRAME 3 -->
+    <section class="frame frame3">
+      <svg width="320" height="50" viewbox="0 0 320 50">
+        <!-- mask -->
+        <defs>
+          <mask id="frame3_mask" class="rect-mask">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" style="fill: #fff;" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame3_mask)">
+          <!-- background -->
+          <g>
+            <image class="img img01" width="100%" height="100%" y="0" x="0" href="./assets/img03.jpg" />
+          </g>
+          <!-- rect inner -->
+          <g class="rect-inner rect-teal">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- rect outer -->
+          <g class="rect-outer rect-grey">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- mid text -->
+          <g class="text t1">
+            <image width="100%" height="100%" y="0" x="0" href="./assets/NowStreaming.png" />
+          </g>
+          <!-- rect top -->
+          <g class="rect-top rect-grey">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- heading and attr -->
+          <g class="text t2">
+            <image width="100%" height="100%" y="0" x="0" href="./assets/txt03.png" />
+            <image width="100%" height="100%" y="0" x="0" href="./assets/disc02.png" />
+          </g>
+        </g>
+      </svg>
+    </section>
+
+
+    <!-- FRAME 4 -->
+    <section class="frame frame4">
+      <svg width="320" height="50" viewbox="0 0 320 50">
+        <!-- mask -->
+        <defs>
+          <mask id="frame4_mask" class="rect-mask">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" style="fill: #fff;" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" style="fill: #fff;" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame4_mask)">
+          <!-- background -->
+          <g>
+            <image class="img img01" width="100%" height="100%" y="0" x="0" href="./assets/img04.jpg" />
+          </g>
+          <!-- rect outer -->
+          <g class="rect-outer rect-orange">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- rect top -->
+          <g class="rect-top rect-orange">
+            <rect width="100%" height="calc(100%/3)" x="0" y="0" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="33%" />
+            <rect width="100%" height="calc(100%/3)" x="0" y="66%" />
+          </g>
+          <!-- heading -->
+          <g class="text t1">
+            <image width="100%" height="100%" y="0" x="0" href="./assets/txt04.png" />
+          </g>
+          <!-- attr -->
+          <g class="text t2">
+            <image width="100%" height="100%" y="0" x="0" href="./assets/disc03.png" />
+          </g>
+          <!-- special offer -->
+          <!-- <g class="specialoffer">
+            <rect class="border-left" width="2" height="19" y="18" x="380" fill="#000"></rect>
+            <rect class="border-right" width="2" height="19" y="18" x="498" fill="#000"></rect>
+            <image width="120" height="29" y="15" x="380" href="./assets/SpecialOffer.png" />
+          </g> -->
+          <!-- button -->
+          <g class="button">
+            <image width="79" height="17" y="15" x="235" href="./assets/btn.png" />
+          </g>
+        </g>
+      </svg>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
