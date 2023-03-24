@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     .set('.text image', { autoAlpha: 0, y: 20 })
     .set('.rect-top rect', { y: '-100%' })
     .set('.specialoffer rect', { autoAlpha: 0 })
-    .set('.specialoffer .border-left', { x: 66, scaleY: 0.1 })
-    .set('.specialoffer .border-right', { x: -66, scaleY: 0.1 })
+    .set('.specialoffer .border-left', { x: 93, scaleY: 0.1 })
+    .set('.specialoffer .border-right', { x: -93, scaleY: 0.1 })
     .set('.specialoffer image', { scale: 0, transformOrigin: "50% 50%" })
     .set('.button image', { autoAlpha: 0 })
 
