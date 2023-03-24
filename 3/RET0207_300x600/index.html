@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP Training 3 - 300x600</title>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <main id="banner">
+    <!-- main logo -->
+    <img class="main_logo" src="./assets/foxtelLogo.png">
+
+    <!-- FRAME 1 -->
+    <section class="frame frame1">
+      <svg width="300" height="600" viewbox="0 0 300 600">
+        <!-- mask -->
+        <defs>
+          <mask id="frame1_mask">
+            <rect width="150%" height="160%" x="0%" y="-50%" style="fill: #fff; rotate: 15deg" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame1_mask)">
+          <image class="bg" href="./assets/txt01.png" />
+          <image class="disc" href="./assets/disc01.png" />
+          <image class="ribbon" href="./assets/ribbon01.png" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- FRAME 2 -->
+    <section class="frame frame2">
+      <svg width="300" height="600" viewbox="0 0 300 600">
+        <!-- mask -->
+        <defs>
+          <mask id="frame2_mask">
+            <rect width="150%" height="160%" x="0%" y="-50%" style="fill: #fff; rotate: 15deg" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame2_mask)">
+          <image class="bg" href="./assets/img01.jpg" />
+          <image class="disc" href="./assets/disc02.png" />
+          <image class="ribbon" href="./assets/ribbon02.png" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- FRAME 3 -->
+    <section class="frame frame3">
+      <svg width="300" height="600" viewbox="0 0 300 600">
+        <!-- mask -->
+        <defs>
+          <mask id="frame3_mask">
+            <rect width="150%" height="160%" x="0%" y="-50%" style="fill: #fff; rotate: 15deg" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame3_mask)">
+          <image class="bg" href="./assets/img02.jpg" />
+          <image class="ribbon" href="./assets/ribbon02.png" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- FRAME 4 -->
+    <section class="frame frame4">
+      <svg width="300" height="600" viewbox="0 0 300 600">
+        <!-- mask -->
+        <defs>
+          <mask id="frame4_mask">
+            <rect width="150%" height="160%" x="0%" y="-50%" style="fill: #fff; rotate: 15deg" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame4_mask)">
+          <image class="bg" href="./assets/img03.jpg" />
+          <image class="ribbon" href="./assets/ribbon02.png" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- FRAME 5 -->
+    <section class="frame frame5">
+      <svg width="300" height="600" viewbox="0 0 300 600">
+        <!-- mask -->
+        <defs>
+          <mask id="frame5_mask">
+            <rect width="150%" height="160%" x="0%" y="-50%" style="fill: #fff; rotate: 15deg" />
+          </mask>
+        </defs>
+        <!-- container to mask -->
+        <g mask="url(#frame5_mask)">
+          <image class="bg" href="./assets/txt02.png" />
+          <image class="disc" href="./assets/disc01.png" />
+          <image class="ribbon" href="./assets/ribbon03.png" />
+        </g>
+      </svg>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
