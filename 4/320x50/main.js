@@ -121,8 +121,8 @@ const f4Timeline = () => {
     .to('.frame4 .t1 image', 0.3, textProps)
     // attr
     .to('.frame4 .t2 image', 0.3, textProps)
-    // mainlogo
-    .to('.main-logo', 0.3, { y: -10 }, '<')
+    // // mainlogo
+    // .to('.main-logo', 0.3, { y: -10 }, '<')
     // specialoffer show border
     .set('.frame4 .specialoffer rect', { autoAlpha: 1 })
     // specialoffer border scale(height)
